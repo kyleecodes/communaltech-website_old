@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply font-sans;
+  }
+}
+
+html {
+  height: 100%;
+  margin: 1%;
+}
+
+body,
+body[data-theme="light"] {
+  --color-font: black;
+  --color-secondary: #eaaae0;
+  --color-primary-diff: #eaaae0b9;
+  --color-primary: #84637c;
+  --color-contrast: #2bc0cbaf;
+  --color-bg-primary: white;
+  --color-bg-toggle: #eaaae0b9;
+  --color-bg-toggle-thumb: #84637c;
+  --color-inverse-bg: black;
+  --color-inverse-font: white;
+}
+
+body[data-theme="dark"] {
+  --color-font: white;
+  --color-primary: #eaaae0;
+  --color-primary-diff: #eaaae0b9;
+  --color-secondary: #84637c;
+  --color-contrast: #2bc0cbaf;
+  --color-bg-primary: black;
+  --color-bg-toggle: #84637c;
+  --color-bg-toggle-thumb: #84637c;
+  --color-inverse-bg: white;
+  --color-inverse-font: black;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg-primary);
+  color: var(--color-font);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+main {
+  font-size: 1.75vh;
+  letter-spacing: 0.25px;
+  padding: 2%;
+}
+
+@media (min-width: 550px) {
+  main {
+    font-size: 2vh;
+    padding: 3% 10% 3% 10%;
+  }
+}
+
+.bounce {
+  height: 30px;
+  overflow: hidden;
+  position: relative;
+  background: var(--color-bg-toggle);
+  color: --color-font;
+  border: 1px solid var(--color-font);
+  border-radius: 70px;
+}
+
+.bounce p {
+  position: absolute;
+  @apply font-robotoMono;
+  font-size: 1.85vh;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+  -moz-transform: translateX(30%);
+  -webkit-transform: translateX(30%);
+  transform: translateX(30%);
+  -moz-animation: bouncing-text 5s linear infinite alternate;
+  -webkit-animation: bouncing-text 5s linear infinite alternate;
+  animation: bouncing-text 4s linear infinite alternate;
+}
+
+@media (min-width: 890px) {
+  .bounce p {
+    -moz-animation: bouncing-text 5s linear infinite alternate;
+    -webkit-animation: bouncing-text 5s linear infinite alternate;
+    animation: bouncing-text 10s linear infinite alternate;
+  }
+}
+
+@-moz-keyframes bouncing-text {
+  0% {
+    -moz-transform: translateX(30%);
+  }
+  100% {
+    -moz-transform: translateX(-30%);
+  }
+}
+
+@-webkit-keyframes bouncing-text {
+  0% {
+    -webkit-transform: translateX(30%);
+  }
+  100% {
+    -webkit-transform: translateX(-30%);
+  }
+}
+
+@keyframes bouncing-text {
+  0% {
+    -moz-transform: translateX(30%);
+    -webkit-transform: translateX(30%);
+    transform: translateX(30%);
+  }
+  100% {
+    -moz-transform: translateX(-30%);
+    -webkit-transform: translateX(-30%);
+    transform: translateX(-30%);
+  }
+}
