@@ -20,7 +20,12 @@ export default function Home() {
               <div className={styles.landing_text}> for web3 and beyond!</div>
               <div className={styles.landing_buttons}>
                 <div className={styles.left_align_button}>
-                  <ContactButton />
+                  {/* <ContactButton /> */}
+                  <div className={styles.landing_button}>
+                    <button className={styles.glimmer_animation}>
+                      <a href="/services"> View Services </a>
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>

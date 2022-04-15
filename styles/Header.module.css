@@ -15,6 +15,11 @@
   /* border: 2px solid blue; */
 }
 
+.toggle_position {
+  border: red 2px solid;
+  display: inline-block;
+}
+
 /* .company_title:hover {
   color: #eaaae0;
   text-shadow: 0 0 5px var(--color-primary);

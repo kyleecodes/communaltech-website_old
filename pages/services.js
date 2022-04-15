@@ -55,10 +55,7 @@ export default function Services() {
 
                 <p>
                   {" "}
-                  Monitor your community's technical support needs, provide resources, delegate accordingly, analyze competitors, and demonstrate your technology to the community!   {" "} 
-                  <br/>
-                  <br/>
-                  Can also provide frontend development support.
+                  Onboard new community members to your platform. Monitor your community's technical support needs, provide resources, delegate accordingly, analyze competitors, and demonstrate your technology to the community!   {" "} 
                 </p>
               </div>
               {/* </span> */}

@@ -4,12 +4,10 @@ import styled from "@emotion/styled";
 
 const ToggleButton = styled.button`
   z-index: 10;
-  --toggle-width: 60px;
+  --toggle-width: 70px;
   --toggle-height: 28px;
   --toggle-padding: 2.5px;
-  ${'' /* margin: 5px; */}
-  ${'' /* position: relative; */}
-  position: absolute;
+  position: sticky;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -52,7 +50,7 @@ const ToggleThumb = styled.span`
 
 const ThemeToggle = () => {
   const [activeTheme, setActiveTheme] = useState(document.body.dataset.theme);
-  const inactiveTheme = activeTheme === "light" ? "dark" : "light";
+  const inactiveTheme = activeTheme === "dark" ? "light" : "dark";
 
   useEffect(() => {
     document.body.dataset.theme = activeTheme;
