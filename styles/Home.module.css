@@ -8,13 +8,11 @@
 .float_container {
   display: inline-block;
   width: 80%;
-  /* margin: 0% 10% 0% 10%; */
 }
 
 .float_left {
   float: left;
   width: 60%;
-  /* border: 2px solid green; */
 }
 
 .landing_header {
@@ -26,7 +24,6 @@
   -o-animation: fadeIn linear 1s;
   -ms-animation: fadeIn linear 1s;
 }
-
 
 .landing_text {
   @apply font-robotoMono;
@@ -232,9 +229,7 @@
   animation: 2s anim-lineUp ease-out;
 }
 
-
 .land_image_container {
-  /* border: solid red 2px; */
   width: 80%;
 }
 
@@ -250,9 +245,7 @@
   }
 }
 
-
 @media (max-width: 1000px) {
-
   .landing_button {
     width: 100%;
   }
@@ -261,16 +254,14 @@
     /* margin: 0% 5% 0% 5%; */
     width: 100%;
   }
-  
+
   .landing_text {
     font-size: 16px;
   }
 
   .landing_header {
     font-size: 2.25vh;
-    margin-left:5px;
-    /* letter-spacing: 1.5px; */
-    /* border: 2px red solid; */
+    margin-left: 5px;
   }
 }
 

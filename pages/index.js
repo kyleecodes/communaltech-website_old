@@ -12,27 +12,30 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.float_container}>
-          <div className={styles.float_left}>
-            <div className={styles.landing_container}>
-              <div className={styles.landing_header}>
-                BUILDING <br /> TECHNICAL <br /> COMMUNITIES <br /> FOR EVERYONE
-              </div>
-              <div className={styles.landing_text}> for web3 and beyond!</div>
-              <div className={styles.landing_buttons}>
-                <div className={styles.left_align_button}>
-                  {/* <ContactButton /> */}
-                  <div className={styles.landing_button}>
-                    <button className={styles.glimmer_animation}>
-                      <a href="/services"> View Services </a>
-                    </button>
-                  </div>
-                </div>
+          <div className={styles.landing_container}>
+            <div className={styles.landing_header}>
+              BUILDING TECHNICAL COMMUNITIES FOR EVERYONE
+              <div className={styles.landing_text}>
+                {" "}
+                Greetings! My name is Kylee. I'm a developer advocate and
+                founder of Communal Tech. I enjoy building inclusive communities
+                and breaking down abstract, technical concepts into
+                easy-to-understand content. <br />
+                <br />
+                <a href="/about">Learn More About Communal Tech</a>
               </div>
             </div>
-          </div>
-          <div className={styles.float_right}>
-            <div className={styles.land_image_container}>
-              <img className={styles.land_image} src="logo.png" />
+            <div className={styles.landing_buttons}>
+              <div className={styles.left_align_button}>
+                <div className={styles.landing_button}>
+                  <button className={styles.glimmer_animation}>
+                    <a href="/services">
+                      {" "}
+                      View Services{" "}
+                    </a>
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>

@@ -5,6 +5,7 @@ function Navbar() {
   return (
     <div className={styles.navbar_container}>
        <div className={styles.navlinks_container}>
+        <ul>
         <li>
           <Link href="/">
             <a>HOME</a>
@@ -28,6 +29,7 @@ function Navbar() {
         <li>
         <a target="_blank" href="https://blljhazo9cp.typeform.com/to/vOzyqBjF" rel="noopener noreferrer"> CONTACT </a>
         </li>
+        </ul>
     </div>
     </div>
   );

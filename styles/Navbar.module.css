@@ -2,12 +2,10 @@
   margin: 25px 0px 10px 0px;
   text-align: center;
   font-size: 1.5vh;
-  /* border: 2px solid red; */
   padding-left: 6px;
 }
 
 .navlinks_container {
-  /* border: 2px solid blue; */
   text-align: left;
 }
 
@@ -15,7 +13,6 @@
   display: inline-block;
   margin: 0 2% 0 0%;
   list-style: none;
-  /* border: 2px solid red; */
 }
 
 /* unvisited link */
@@ -24,9 +21,6 @@
   text-shadow: 5px 5px 8px var(--color-primary);
 }
 
-/* visited link */
-/* .navlinks_container li a:visited {
-} */
 
 /* mouse over link */
 .navlinks_container li a:hover {

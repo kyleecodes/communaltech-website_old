@@ -12,14 +12,9 @@
   box-shadow: 3px 3px 10px 4px var(--color-primary-diff);
   text-align: left;
   display: inline-block;
-  /* -webkit-animation: slideLeft 3s forwards;
-  -webkit-animation-delay: 0s;
-  animation: slideLeft 3s forwards;
-  animation-delay: 0s; */
   text-shadow: 2px 2px 3px var(--color-secondary);
 }
 
-/* p css for link description, hidden on mobile because its responsive */
 .left_link_container p {
   display: none;
 }
@@ -29,9 +24,6 @@
 }
 .left_link_container h2:hover {
   color: var(--color-secondary);
-  /* animation-name: leftLinkPulse;
-  animation-duration: 2s;
-  animation-fill-mode: both; */
   font-style: italic;
 }
 .right_link_container {
@@ -43,14 +35,9 @@
   box-shadow: 3px 3px 10px 4px var(--color-primary-diff);
   display: inline-block;
   text-align: right;
-  /* -webkit-animation: slideRight 2.5s forwards;
-  -webkit-animation-delay: 0s;
-  animation: slideRight 2.5s forwards;
-  animation-delay: 0s; */
   text-shadow: 3px 3px 4px var(--color-secondary);
 }
 
-/* p css for link description, hidden on mobile because its responsive */
 .right_link_container p {
   display: none;
 }
@@ -60,9 +47,6 @@
 }
 .right_link_container h2:hover {
   color: var(--color-secondary);
-  /* animation-name: rightLinkPulse;
-  animation-duration: 2s;
-  animation-fill-mode: both; */
   font-style: italic;
 }
 @media (min-width: 990px) {
@@ -85,63 +69,3 @@
   }
 }
 
-/* @keyframes slideLeft {
-  0% {
-    opacity: 0;
-    transform: translateX(-80%);
-  }
-  20% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-    transform: translateX(0%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0%);
-  }
-}
-@keyframes slideRight {
-  0% {
-    opacity: 0;
-    transform: translateX(80%);
-  }
-  20% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-    transform: translateX(0%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0%);
-  }
-}
-@keyframes leftLinkPulse {
-  0% {
-    transform: translateX(0%);
-  }
-  50% {
-    opacity: 1;
-    transform: translateX(5%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0%);
-  }
-}
-@keyframes rightLinkPulse {
-  0% {
-    transform: translateX(0%);
-  }
-  50% {
-    opacity: 1;
-    transform: translateX(-5%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0%);
-  }
-} */

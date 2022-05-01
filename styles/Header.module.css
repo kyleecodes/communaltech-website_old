@@ -2,9 +2,7 @@
   margin: 10px 5px 5px 5px;
   padding: 15px 15px 5px 15px;
   animation: 2s anim-lineUp ease-out;
-  /* border: 2px solid red; */
   text-align: left;
-  /* border-bottom: 1px solid var(--color-secondary); */
 }
 
 .company_title {
@@ -12,30 +10,18 @@
   text-transform: uppercase;
   letter-spacing: 6px;
   text-shadow: 3px 3px 4px var(--color-primary);
-  /* border: 2px solid blue; */
 }
 
 .toggle_position {
-  border: red 2px solid;
   display: inline-block;
 }
-
-/* .company_title:hover {
-  color: #eaaae0;
-  text-shadow: 0 0 5px var(--color-primary);
-  animation-name: pulse;
-  animation-duration: 2s;
-  animation-fill-mode: both;
-} */
 
 .subtitle {
   font-size: 1.5vh;
   letter-spacing: 5px;
   padding-left: 6px;
   margin: 5% 0% 5% 0%;
-  /* text-shadow: 2px 2px 3px var(--color-primary); */
   @apply font-robotoMono;
-  /* border: 2px solid blue; */
 }
 
 @media (min-width: 800px) {
@@ -46,7 +32,6 @@
     font-size: 4vh;
   }
   .subtitle {
-    /* font-size: 2vh; */
     margin: 0% 0% 1% 0%;
   }
 }
@@ -55,9 +40,6 @@
   .company_title {
     font-size: 5vh;
   }
-  /* .subtitle {
-    font-size: 3vh;
-  } */
 }
 
 @media (min-width: 1200px) {
@@ -68,18 +50,6 @@
     font-size: 1.5vh;
   }
 }
-
-/* @keyframes pulse {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.05);
-  }
-  100% {
-    transform: scale(1);
-  }
-} */
 
 @keyframes anim-lineUp {
   0% {

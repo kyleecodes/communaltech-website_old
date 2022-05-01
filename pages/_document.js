@@ -14,24 +14,13 @@ import Document, {
     }
   
     render() {
-      const setInitialTheme = `
-      function getUserPreference() {
-        if(window.localStorage.getItem('theme')) {
-          return window.localStorage.getItem('theme')
-        }
-        return window.matchMedia('(prefers-color-scheme: dark)').matches 
-          ? 'dark' 
-          : 'light'
-      }
-      document.body.dataset.theme = getUserPreference();
-    `;
       return (
-        <Html>
+        <Html lang="en" >
           <Head>
           <link href="https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@400&display=swap" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet" />
           </Head>
-          <body className="dark:bg-gray-800">
+          <body>
             <Main />
             <NextScript />
           </body>

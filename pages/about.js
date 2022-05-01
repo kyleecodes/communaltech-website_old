@@ -24,8 +24,8 @@ export default function About() {
                 {" "}
                 Communal Tech is a technical community management consulting company founded by 'Kylee Codes' in January 2022. Kylee previously worked as a freelance web designer, software engineer, computer science student, and content creator, before entering web3 full-time in October 2021! <br />
                 Kylee has been a crypto fan since 2014 and has been actively engaged in the web3 space since 2020.
-                <br />
-                
+                <br /> <br />
+                <a href="https://twitter.com/kyleecodes">Follow Kylee on Twitter!</a>
               </div>
               <div className={styles.landing_buttons}>
               <div className={styles.left_align_button}>
@@ -36,9 +36,6 @@ export default function About() {
           </div>
           <div className={styles.float_right}>
           <div className={styles.land_image_container}>
-          <div className={styles.round_glimmer_animation}>
-            <img className={styles.about_image} src="me.jpg" />
-          </div>
           </div>
           </div>
         </div>

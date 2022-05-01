@@ -16,7 +16,6 @@ export default function Services() {
         <div className={styles.landing_text}>
           <div className={styles.services_container}>
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
-              {/* <span className={styles.services_float_left}> */}
               <div className={styles.services}>
                 <div className="font-extrabold">BUILD COMMUNITY</div>
                 <p>
@@ -37,9 +36,6 @@ export default function Services() {
                   platforms, technical writing, infographic design, and more!{" "}
                 </p>
               </div>
-              {/* </span> */}
-
-              {/* <span className={styles.services_float_right}> */}
               <div className={styles.services}>
                 <div className="font-extrabold"> LIVE EVENTS </div>
                 <p>
@@ -58,7 +54,6 @@ export default function Services() {
                   Onboard new community members to your platform. Monitor your community's technical support needs, provide resources, delegate accordingly, analyze competitors, and demonstrate your technology to the community!   {" "} 
                 </p>
               </div>
-              {/* </span> */}
             </div>
           </div>
           <div className={styles.landing_buttons}>

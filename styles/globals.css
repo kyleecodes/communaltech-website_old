@@ -13,20 +13,15 @@ html {
   margin: 1%;
 }
 
-body,
-body[data-theme="light"] {
-  --color-font: black;
-  --color-secondary: #eaaae0;
-  --color-primary-diff: #eaaae0b9;
-  --color-primary: #84637c;
-  --color-contrast: #2bc0cbaf;
-  --color-bg-primary: white;
-  --color-bg-toggle: #eaaae0b9;
-  --color-bg-toggle-thumb: #84637c;
-  --color-inverse-bg: black;
-  --color-inverse-font: white;
+body {
+  margin: 0;
+  background: var(--color-bg-primary);
+  color: var(--color-font);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
+body,
 body[data-theme="dark"] {
   --color-font: white;
   --color-primary: #eaaae0;
@@ -40,13 +35,19 @@ body[data-theme="dark"] {
   --color-inverse-font: black;
 }
 
-body {
-  margin: 0;
-  background: var(--color-bg-primary);
-  color: var(--color-font);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body[data-theme="light"] {
+  --color-font: black;
+  --color-secondary: #eaaae0;
+  --color-primary-diff: #eaaae0b9;
+  --color-primary: #84637c;
+  --color-contrast: #2bc0cbaf;
+  --color-bg-primary: white;
+  --color-bg-toggle: #eaaae0b9;
+  --color-bg-toggle-thumb: #84637c;
+  --color-inverse-bg: black;
+  --color-inverse-font: white;
 }
+
 
 a {
   color: inherit;

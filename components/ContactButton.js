@@ -10,7 +10,6 @@ function ContactButton() {
       >
     Let's Connect!
       </PopupButton>
-      {/* <button className={styles.landing_button}>Let's Connect!</button> */}
     </div>
   );
 }

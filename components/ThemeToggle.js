@@ -5,8 +5,8 @@ import styled from "@emotion/styled";
 const ToggleButton = styled.button`
   z-index: 10;
   --toggle-width: 70px;
-  --toggle-height: 28px;
-  --toggle-padding: 2.5px;
+  --toggle-height: 30px;
+  --toggle-padding: 2px;
   position: sticky;
   display: flex;
   align-items: center;
