@@ -1,6 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import ContactButton from "../components/ContactButton";
+import Skills from "../components/Skills";
 
 export default function Services() {
   return (
@@ -11,58 +11,61 @@ export default function Services() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h2 className={styles.landing_header}>SERVICES</h2>
+      <main
+        className={
+          "pr-0 md:pr-24 lg:pr-36 ml-4 md:ml-6 lg:ml-20 2xl:ml-40 mr-2 md:mr-10 lg:mr-30 my-4 md:my-6 lg:my-10 2xl:my-20"
+        }
+      >
+      <div className={styles.main_margin}>
+        <div className={"text-2xl md:text-3xl lg:text-4xl 2xl:text-6xl mb-8"}>
+          <h2 className={styles.line_height}>SERVICES</h2>{" "}
+        </div>
         <div className={styles.landing_text}>
-          <div className={styles.services_container}>
-            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
-              <div className={styles.services}>
-                <div className="font-extrabold">BUILD COMMUNITY</div>
-                <p>
-                  {" "}
-                  Optimize your community's experience and boost engagement!
-                  This includes investigating your community's current level of
-                  engagement, constructing community analytic tools, designing
-                  commmunity commitment programs, and more! <br />
-                </p>
-              </div>
-              <div className={styles.services}>
-                <div className="font-extrabold">CONTENT CREATION </div>
-                <p>
-                  {" "}
-                  Communicate to your community using content everyone can
-                  understand! This includes social media management and
-                  moderation, content creation for all major social media
-                  platforms, technical writing, infographic design, and more!{" "}
-                </p>
-              </div>
-              <div className={styles.services}>
-                <div className="font-extrabold"> LIVE EVENTS </div>
-                <p>
-                  {" "}
-                  This includes technical communication and public speaking on
-                  behalf of your product, for both online and irl events. Such
-                  as Twitter Spaces, Youtube videos, demonstrations, and
-                  podcasts.
-                </p>
-              </div>
-              <div className={styles.services}>
-                <div className="font-extrabold"> TECH SUPPORT </div>
-
-                <p>
-                  {" "}
-                  Onboard new community members to your platform. Monitor your community's technical support needs, provide resources, delegate accordingly, analyze competitors, and demonstrate your technology to the community!   {" "} 
-                </p>
-              </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8 mb-10">
+            <div>
+              <h2 className="text-xl font-extrabold">BUILD COMMUNITY</h2>
+              <p>
+                {" "}
+                Optimize your community's experience and boost engagement! This
+                includes investigating your community's current level of
+                engagement, constructing community analytic tools, designing
+                commmunity commitment programs, managing your community, and more. <br />
+              </p>
             </div>
-          </div>
-          <div className={styles.landing_buttons}>
-            <div className={styles.center_button}>
-              <ContactButton />
+            <div>
+              <h2 className="text-xl font-extrabold">CONTENT CREATION </h2>
+              <p>
+                {" "}
+                Communicate to your community using content everyone can
+                understand! This includes social media management and
+                moderation, content creation for all major social media
+                platforms, technical writing, infographic design, and more.{" "}
+              </p>
+            </div>
+            <div>
+              <h2 className="text-xl font-extrabold"> LIVE EVENTS </h2>
+              <p>
+                {" "}
+                This includes technical communication and public speaking on
+                behalf of your product, for both online and irl events. Such as
+                Twitter Spaces, Youtube videos, demonstrations, and podcasts.
+              </p>
+            </div>
+            <div>
+              <h2 className="text-xl font-extrabold"> TECH SUPPORT </h2>
+              <p>
+                {" "}
+                Onboard new community members to your platform. Monitor your
+                community's technical support needs, provide resources, delegate
+                accordingly, analyze competitors, and demonstrate your
+                technology to the community.{" "}
+              </p>
             </div>
           </div>
         </div>
+        </div>
       </main>
+      <Skills/>
     </div>
   );
 }

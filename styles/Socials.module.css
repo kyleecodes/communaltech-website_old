@@ -5,7 +5,7 @@
 }
 .left_link_container {
   border-radius: 100px 10px / 120px;
-  padding: 5% 8% 5% 8%;
+  padding: 5% 6% 5% 6%;
   margin: 0px 0px 45px 0px;
   width: 70%;
   border: rgba(255, 255, 255, 0.815) 1px solid;
@@ -28,7 +28,7 @@
 }
 .right_link_container {
   border-radius: 10px 100px / 120px;
-  padding: 5% 8% 5% 8%;
+  padding: 5% 6% 5% 6%;
   margin: 0px 0px 45px 0px;
   width: 70%;
   border: rgba(255, 255, 255, 0.815) 1px solid;
@@ -55,17 +55,16 @@
   }
   .left_link_container {
     width: 60%;
-    padding: 4% 7% 4% 7%;
+    padding: 4% 5% 4% 5%;
   }
   .left_link_container h2 {
     font-size: 1.5em;
   }
   .right_link_container {
     width: 60%;
-    padding: 4% 7% 4% 7%;
+    padding: 4% 5% 4% 5%;
   }
   .right_link_container h2 {
     font-size: 1.5em;
   }
 }
-

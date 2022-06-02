@@ -3,10 +3,10 @@ import { PopupButton } from "@typeform/embed-react";
 
 function ContactButton() {
   return (
-    <div className={styles.landing_button}>
+    <div>
       <PopupButton
         id="vOzyqBjF"
-        className={styles.glimmer_animation}
+        className={styles.primary_button}
       >
     Let's Connect!
       </PopupButton>

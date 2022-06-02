@@ -1,16 +1,21 @@
 .navbar_container {
   margin: 25px 0px 10px 0px;
   text-align: center;
-  font-size: 1.5vh;
-  padding-left: 6px;
+  border: rgba(255, 255, 255, 0.815) 1px solid;
+  box-shadow: 3px 3px 10px 4px var(--color-primary-diff);
+  text-shadow: 2px 2px 3px var(--color-secondary);
+  @apply font-sans;
+  background-color: var(--color-bg-primary);
 }
 
 .navlinks_container {
   text-align: left;
+  color: var(--color-font);
+  text-shadow: 5px 5px 8px var(--color-primary);
 }
 
 .navlinks_container li {
-  display: inline-block;
+  /* display: inline-block; */
   margin: 0 2% 0 0%;
   list-style: none;
 }
@@ -21,11 +26,8 @@
   text-shadow: 5px 5px 8px var(--color-primary);
 }
 
-
 /* mouse over link */
 .navlinks_container li a:hover {
   color: rgba(110, 250, 255, 0.541);
   color: var(--color-contrast);
 }
-
-

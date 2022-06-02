@@ -9,6 +9,7 @@
   font-size: 2.7vh;
   text-transform: uppercase;
   letter-spacing: 6px;
+  margin: 20px 0px 0px 0px;
   text-shadow: 3px 3px 4px var(--color-primary);
 }
 
@@ -18,38 +19,29 @@
 
 .subtitle {
   font-size: 1.5vh;
-  letter-spacing: 5px;
+  letter-spacing: 4.5px;
   padding-left: 6px;
-  margin: 5% 0% 5% 0%;
+  margin: 1% 0% 1% 0%;
   @apply font-robotoMono;
 }
 
-@media (min-width: 800px) {
-  .title_containers {
-    margin: 2% 0 2% 0;
-  }
-  .company_title {
-    font-size: 4vh;
-  }
+
+@media (max-width: 767px) {
   .subtitle {
-    margin: 0% 0% 1% 0%;
+    text-align: center;
+  }
+  .header_container {
+    text-align: center;
+    margin: 5px 0px 0px 0px;
   }
 }
 
-@media (min-width: 990px) {
-  .company_title {
-    font-size: 5vh;
-  }
+@media (max-width: 500px) {
+    .subtitle {
+      display: none;
+    }
 }
 
-@media (min-width: 1200px) {
-  .company_title {
-    font-size: 5vh;
-  }
-  .subtitle {
-    font-size: 1.5vh;
-  }
-}
 
 @keyframes anim-lineUp {
   0% {

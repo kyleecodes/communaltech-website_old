@@ -1,7 +1,5 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import ContactButton from "../components/ContactButton";
-
 
 export default function About() {
   return (
@@ -12,36 +10,49 @@ export default function About() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <div className={styles.float_container}>
-          <div className={styles.float_left}>
-            
-          <div className={styles.landing_header}>
-                ABOUT COMMUNAL TECH
-              </div>
-            <div className={styles.landing_container}>
-              <div className={styles.landing_text}>
-                {" "}
-                Communal Tech is a technical community management consulting company founded by 'Kylee Codes' in January 2022. Kylee previously worked as a freelance web designer, software engineer, computer science student, and content creator, before entering web3 full-time in October 2021! <br />
-                Kylee has been a crypto fan since 2014 and has been actively engaged in the web3 space since 2020.
-                <br /> <br />
-                <a href="https://twitter.com/kyleecodes">Follow Kylee on Twitter!</a>
-              </div>
-              <div className={styles.landing_buttons}>
-              <div className={styles.left_align_button}>
-                <ContactButton />
-              </div>
-              </div>
-            </div>
+      <main
+        className={
+          "text-center px-2 md:px-14 lg:px-40 mx-4 md:mx-6 lg:mx-20 2xl:mx-40 my-4 md:my-6 lg:my-10 2xl:my-20"
+        }
+      >
+        <div className={styles.main_margin}>
+          <div
+            className={
+              "text-2xl md:text-3xl lg:text-4xl 2xl:text-6xl mb-1 md:mb-2"
+            }
+          >
+            <h2 className={styles.line_height}>
+              ABOUT <br /> COMMUNAL TECH
+            </h2>{" "}
           </div>
-          <div className={styles.float_right}>
-          <div className={styles.land_image_container}>
-          </div>
-          </div>
+
+          <p
+            className={
+              "font-robotoMono text-base md:text-sm lg:text-md xl:text-lg 2xl:text-xl mb-10"
+            }
+          >
+            Communal Tech is a technical community management consulting company
+            founded by 'Kylee Codes' in January 2022. Kylee previously worked as
+            a freelance web designer, software engineer intern at Red Hat, computer science
+            student, and content creator. <br />
+            Kylee is mostly self-taught, has been a lifelong computer science nerd, and is finishing up her Computer Science degree, with a heavy focus on studying advanced programming languages, such as Rustlang. 
+            <br /> <br />
+            <a className = "font-bold" href="https://twitter.com/kyleecodes">
+              Follow Kylee on Twitter!
+            </a>
+          </p>
+          <button className={styles.primary_button}>
+            <a
+              target="_blank"
+              href="https://blljhazo9cp.typeform.com/to/vOzyqBjF"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              Let's Connect!{" "}
+            </a>
+          </button>
         </div>
       </main>
-
-
     </div>
   );
 }

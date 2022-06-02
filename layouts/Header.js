@@ -10,10 +10,8 @@ const ThemeToggle = dynamic(() => import("../components/ThemeToggle"), {
 function Header() {
   return (
     <div className={styles.header_container}>
-          <ThemeToggle />
       <div className={styles.company_title}>Communal Tech</div>
       <div className={styles.subtitle}> technical community management</div>
-      <Navbar />
     </div>
   );
 }

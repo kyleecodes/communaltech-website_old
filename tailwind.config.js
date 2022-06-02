@@ -10,7 +10,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'sans': ['Lexend Tera', ...defaultTheme.fontFamily.sans],
-        'robotoMono' : ['Roboto Mono']
+        'robotoMono': ['Roboto\\ Mono']
       },
     },
   },
