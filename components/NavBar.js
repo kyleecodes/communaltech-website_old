@@ -19,20 +19,14 @@ function Navbar() {
             <div className="flex justify-between">
               <div className="flex space-x-7">
                 <div className="flex items-center py-4">
-                    <span className="text-lg">
-                      <ThemeToggle />
-                    </span>
+                  <span className="text-lg">
+                    <ThemeToggle />
+                  </span>
                 </div>
                 {/* Desktop Menu */}
                 <div className="hidden md:flex items-center space-x-1">
                   <a href="/" className="py-4 px-2">
                     HOME
-                  </a>
-                  <a
-                    href="#services_section"
-                    className="py-4 px-2 transition duration-300"
-                  >
-                    SERVICES
                   </a>
                   <a
                     href="#about_section"
@@ -41,24 +35,32 @@ function Navbar() {
                     ABOUT
                   </a>
                   <a
+                    href="https://www.notion.so/communaltech/Kylee-Fields-Communal-Tech-1-0730bd5aa6a24f6d9e91b895e56cee48#9d1c94f8f82c4781b8e7befcd8fb9189"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="py-4 px-2 transition duration-300"
+                  >
+                    SERVICES+SKILLS
+                  </a>
+                  <a
                     href="#socials_section"
                     className="py-4 px-2 transition duration-300"
                   >
-                    SOCIALS
+                    LINKS
                   </a>
                 </div>
               </div>
               <div className="hidden md:flex items-center space-x-3 ">
                 <a
-                  target="_blank" 
-				  href="https://blljhazo9cp.typeform.com/to/vOzyqBjF" 
-				  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://blljhazo9cp.typeform.com/to/vOzyqBjF"
+                  rel="noopener noreferrer"
                   className="py-2 px-2 rounded transition duration-300"
                 >
                   Let's Connect!
                 </a>
               </div>
-            	{/* Mobile menu toggle */}
+              {/* Mobile menu toggle */}
               <div className="md:hidden flex items-center">
                 <button
                   className="outline-none mobile-menu-button"
@@ -84,19 +86,18 @@ function Navbar() {
           {toggle && (
             <ul className="">
               <li className="active">
-                <a
-                  href=""
-                  className="block text-sm px-2 py-4"
-                >
+                <a href="" className="block text-sm px-2 py-4">
                   Home
                 </a>
               </li>
               <li>
                 <a
-                  href="#services_section"
+                  href="https://www.notion.so/communaltech/Kylee-Fields-Communal-Tech-1-0730bd5aa6a24f6d9e91b895e56cee48#9d1c94f8f82c4781b8e7befcd8fb9189"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="block text-sm px-2 py-4 transition duration-300"
                 >
-                  Services
+                  Services+Skills
                 </a>
               </li>
               <li>
@@ -110,14 +111,14 @@ function Navbar() {
                   href="#socials_section"
                   className="block text-sm px-2 py-4 transition duration-300"
                 >
-                  Socials
+                  Links
                 </a>
               </li>
               <li>
-			  <a
-                  target="_blank" 
-				  href="https://blljhazo9cp.typeform.com/to/vOzyqBjF" 
-				  rel="noopener noreferrer"
+                <a
+                  target="_blank"
+                  href="https://blljhazo9cp.typeform.com/to/vOzyqBjF"
+                  rel="noopener noreferrer"
                   className="block text-sm px-2 py-4 transition duration-300 font-bold"
                 >
                   Let's Connect!

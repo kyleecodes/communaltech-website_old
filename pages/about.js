@@ -22,7 +22,7 @@ export default function About() {
             }
           >
             <h2 className={styles.line_height}>
-              ABOUT <br /> COMMUNAL TECH
+              WHAT IS <br /> TECHNICAL COMMUNITY MANAGEMENT?
             </h2>{" "}
           </div>
 
@@ -31,15 +31,27 @@ export default function About() {
               "font-robotoMono text-base md:text-sm lg:text-md xl:text-lg 2xl:text-xl mb-10"
             }
           >
-            Communal Tech is a technical community management consulting company
-            founded by 'Kylee Codes' in January 2022. Kylee previously worked as
-            a freelance web designer, software engineer intern at Red Hat, computer science
-            student, and content creator. <br />
-            Kylee is mostly self-taught, has been a lifelong computer science nerd, and is finishing up her Computer Science degree, with a heavy focus on studying advanced programming languages, such as Rustlang. 
+            Technical community management is the intersection of community management and tech, while community management is the intersection of marketing, business development, and content/social media.
             <br /> <br />
-            <a className = "font-bold" href="https://twitter.com/kyleecodes">
-              Follow Kylee on Twitter!
-            </a>
+            A great way to grasp community management is to view it from the perspective of
+            marketing. While community management and marketing are two
+            different areas, the two often intersect, and their differences
+            highlight what makes community management unique. Community management
+            focuses on user retention while traditional marketing focuses on
+            user reach. In other words, marketing gets users in the door, while
+            community management keeps them there. 
+            <br /> <br />
+            Technical community management is specialized community management for the tech industry. We are well-versed in technology, don't shy away from analytic tools, and use our empathy as a superpower. 
+            We intersect with engineering to address the unique needs of developers, which are often not met by traditional marketing, business development, and content/social media alone. Similar to developer relations and advocacy, but with a greater focus on community.
+            <br /> <br />
+            <a
+              className="font-bold text-purple-600"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://communaltech.notion.site/Technical-Community-Management-Resources-1dcc6e2bfef3408fba7c502ceee1aad7"
+            >
+              ➡️  Click for my list of Technical Community Resources!
+            </a> 
           </p>
           <button className={styles.primary_button}>
             <a

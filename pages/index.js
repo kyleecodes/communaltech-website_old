@@ -1,7 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import About from "./about";
-import Services from "./services";
 import Socials from "./socials";
 import NavBar from "../components/NavBar";
 
@@ -17,21 +16,20 @@ export default function Home() {
         <NavBar />
       </div>
       <section>
-      <main
-        className={
-          "pr-0 md:pr-24 lg:pr-36 xl:pr-56 ml-4 md:ml-6 lg:ml-20 2xl:ml-40 mr-1 md:mr-10 lg:mr-40 2xl:mr-60 my-4 md:my-6 lg:my-10 2xl:my-20"
-        }
-      >
-        <div className={styles.main_margin}>
+        <main
+          className={
+            "pr-0 md:pr-24 lg:pr-36 xl:pr-56 ml-4 md:ml-6 lg:ml-20 2xl:ml-40 mr-1 md:mr-10 lg:mr-40 2xl:mr-60 my-4 md:my-6 lg:my-10 2xl:my-20"
+          }
+        >
           <div
             className={
               "text-2xl md:text-3xl lg:text-4xl 2xl:text-6xl mb-1 md:mb-2"
             }
           >
             <h2 className={styles.line_height}>
-              BUILDING TECHNICAL
+              Greetings,
               <br />
-              COMMUNITIES FOR EVERYONE!
+              I'm Kylee 👋
             </h2>{" "}
           </div>
           <p
@@ -39,21 +37,27 @@ export default function Home() {
               "font-robotoMono text-base md:text-sm lg:text-md xl:text-lg 2xl:text-xl pr-0.5 md:pr-4 xl:pr-44 2xl:pr-64 mb-10"
             }
           >
-            Greetings! My name is Kylee. I'm a developer advocate and founder of
-            Communal Tech. I enjoy building inclusive communities and breaking
-            down abstract, technical concepts into easy-to-understand content.{" "}
+            I’m a community manager in tech. I enjoy enabling developers
+            to build cool stuff, building inclusive technical communities, and
+            breaking down abstract concepts into easy-to-understand
+            content. My empathy and technological curiosity fuels my passion for developer advocacy. <br />
             <br />
+            <a className = "font-bold text-sky-400" href="https://twitter.com/kyleecodes">
+            ➡️  Follow Communal Tech on Twitter! <br />
             <br />
-            <a className="font-bold" href="#about_section">Learn More About Communal Tech</a>
+            </a>
+            <p className="font-bold">
+              The link below will take you to my landing page on Notion, which
+              includes my resume, work experience, and more about me!
+            </p>
           </p>
           <button className={styles.primary_button}>
-            <a href="#services_section"> My Services ↓ </a>
+            <a href="https://communaltech.notion.site/Kylee-Fields-Communal-Tech-1-0730bd5aa6a24f6d9e91b895e56cee48">
+              {" "}
+              Learn More{" "}
+            </a>
           </button>
-        </div>
-      </main>
-</section>
-      <section id={"services_section"}>
-        <Services />
+        </main>
       </section>
 
       <section id={"about_section"}>
