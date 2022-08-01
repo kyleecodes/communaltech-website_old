@@ -40,7 +40,7 @@ export default function Home() {
             I’m a community manager in tech. I enjoy enabling developers
             to build cool stuff, building inclusive technical communities, and
             breaking down abstract concepts into easy-to-understand
-            content. My empathy and technological curiosity fuels my passion for developer advocacy. <br />
+            content and workflows. My empathy and technological curiosity fuels my passion for developer advocacy. <br />
             <br />
             <a className = "font-bold text-sky-400" href="https://twitter.com/kyleecodes">
             ➡️  Follow Communal Tech on Twitter! <br />

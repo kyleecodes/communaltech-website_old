@@ -31,18 +31,10 @@ export default function About() {
               "font-robotoMono text-base md:text-sm lg:text-md xl:text-lg 2xl:text-xl mb-10"
             }
           >
-            Technical community management is the intersection of community management and tech, while community management is the intersection of marketing, business development, and content/social media.
+            Technical community management is specialized community management for the tech industry, technical people, and STEM products.
             <br /> <br />
-            A great way to grasp community management is to view it from the perspective of
-            marketing. While community management and marketing are two
-            different areas, the two often intersect, and their differences
-            highlight what makes community management unique. Community management
-            focuses on user retention while traditional marketing focuses on
-            user reach. In other words, marketing gets users in the door, while
-            community management keeps them there. 
-            <br /> <br />
-            Technical community management is specialized community management for the tech industry. We are well-versed in technology, don't shy away from analytic tools, and use our empathy as a superpower. 
-            We intersect with engineering to address the unique needs of developers, which are often not met by traditional marketing, business development, and content/social media alone. Similar to developer relations and advocacy, but with a greater focus on community.
+            Technical community managers are well-versed in technology, understand digital social platforms, don't shy away from using digital tools and analytics to problem-solve, and use our empathy as a superpower. 
+            We intersect with engineering to address the unique needs of developers, which are often not met by traditional marketing, business development, and content/social media alone. Often similar to developer relations, experience, and advocacy, but with a greater focus on community, and even cybersecurity + trust & safety.
             <br /> <br />
             <a
               className="font-bold text-purple-600"
@@ -52,6 +44,7 @@ export default function About() {
             >
               ➡️  Click for my list of Technical Community Resources!
             </a> 
+            <br/><br/>
           </p>
           <button className={styles.primary_button}>
             <a
