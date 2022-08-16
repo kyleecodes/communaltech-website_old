@@ -7,6 +7,15 @@
   line-height: 150%;
 }
 
+/* maintains centered layout on extremely small screens
+such as the Galaxy Fold  */
+@media (max-width: 345px) {
+  .line_height {
+    letter-spacing: 0px;
+    font-size: 20px;
+  }
+}
+
 .primary_button {
   box-shadow: 3px 3px 10px 4px var(--color-primary-diff);
   border-radius: 10px 100px / 120px;

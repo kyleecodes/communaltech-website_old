@@ -40,7 +40,7 @@ function Navbar() {
                     rel="noopener noreferrer"
                     className="py-4 px-2 transition duration-300"
                   >
-                    SERVICES+SKILLS
+                    SERVICES + SKILLS
                   </a>
                   <a
                     href="#socials_section"
@@ -66,18 +66,8 @@ function Navbar() {
                   className="outline-none mobile-menu-button"
                   onClick={() => setToggle(!toggle)}
                 >
-                  <svg
-                    className="w-6 h-6"
-                    x-show="!showMenu"
-                    fill="none"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path d="M4 6h16M4 12h16M4 18h16"></path>
-                  </svg>
+                  {" "}
+                  MENU
                 </button>
               </div>
             </div>
@@ -97,7 +87,7 @@ function Navbar() {
                   rel="noopener noreferrer"
                   className="block text-sm px-2 py-4 transition duration-300"
                 >
-                  Services+Skills
+                  Services + Skills
                 </a>
               </li>
               <li>
