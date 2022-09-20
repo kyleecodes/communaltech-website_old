@@ -49,7 +49,7 @@ export default function Home() {
             </a>
           </p>
           <button className={styles.primary_button}>
-            <a href="https://communaltech.notion.site/Kylee-Fields-Communal-Tech-1-0730bd5aa6a24f6d9e91b895e56cee48">
+            <a href="https://www.notion.so/communaltech/Kylee-Fields-Communal-Tech-0730bd5aa6a24f6d9e91b895e56cee48">
               {" "}
               View Projects{" "}
             </a>
