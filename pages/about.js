@@ -21,9 +21,7 @@ export default function About() {
               "text-2xl md:text-3xl lg:text-4xl 2xl:text-6xl mb-1 md:mb-2"
             }
           >
-            <h2 className={styles.line_height}>
-              WHAT IS <br /> TECHNICAL COMMUNITY MANAGEMENT?
-            </h2>{" "}
+            <h2 className={styles.line_height}>What is Communal Tech?</h2>{" "}
           </div>
 
           <p
@@ -31,30 +29,19 @@ export default function About() {
               "font-robotoMono text-base md:text-sm lg:text-md xl:text-lg 2xl:text-xl mb-10"
             }
           >
-            Technical community management is specialized community management
-            for the tech industry, technical people, and STEM products.
-            <br /> <br />
-            Technical community managers are well-versed in technology,
-            understand digital social platforms, don't shy away from using
-            digital tools and analytics to problem-solve, and use our empathy as
-            a superpower. We intersect with engineering to address the unique
-            needs of developers, which are often not met by traditional
-            marketing, business development, and content/social media alone.
-            Often similar to developer relations, experience, and advocacy, but
-            with a greater focus on community, and even cybersecurity + trust &
-            safety.
-            <br /> <br />
-            <a
-              className="font-bold"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://communaltech.notion.site/Technical-Community-Management-Resources-1dcc6e2bfef3408fba7c502ceee1aad7"
-            >
-              ➡️ Click for my list of Technical Community Resources!
-            </a>
-            <br />
-            <br />
+            Communal Tech is my business for various tech endeavors
+            (specialization pending) and brand for encouraging inclusion in the
+            tech industry. More to come soon, thanks for stopping by! 👋
           </p>
+
+          <p
+            className={
+              "font-robotoMono font-bold text-base md:text-sm lg:text-md xl:text-lg 2xl:text-xl mb-10"
+            }
+          >
+            Communal Tech = Tech for Everyone
+          </p>
+
           <button className={styles.primary_button}>
             <a
               target="_blank"

@@ -41,7 +41,6 @@ footer .center {
 }
 
 section {
-  /* border: red 1px solid; */
   padding-top: 40px;
 }
 
@@ -52,11 +51,12 @@ body[data-theme="dark"] {
   --color-primary-diff: #eaaae0b9;
   --color-secondary: #84637c;
   --color-contrast: #2bc0cbaf;
-  --color-bg-primary: black;
+  --color-bg-primary: rgb(21, 21, 21);
   --color-bg-toggle: #84637c;
   --color-bg-toggle-thumb: #84637c;
   --color-inverse-bg: white;
   --color-inverse-font: black;
+  --color-button-border: rgba(255, 255, 255, 0.397);
 }
 
 body[data-theme="light"] {
@@ -70,6 +70,7 @@ body[data-theme="light"] {
   --color-bg-toggle-thumb: #84637c;
   --color-inverse-bg: black;
   --color-inverse-font: white;
+  --color-button-border: rgba(1, 1, 1, 0.497);
 }
 
 a {
@@ -92,8 +93,8 @@ a {
   position: relative;
   background: var(--color-bg-toggle);
   color: --color-font;
-  border: 1px solid var(--color-font);
-  border-radius: 70px;
+  border: 1px solid var(--color-button-border);
+  border-radius: 10px 2px / 12px;
 }
 
 .bounce p {

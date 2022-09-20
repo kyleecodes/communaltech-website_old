@@ -19,7 +19,7 @@ such as the Galaxy Fold  */
 .primary_button {
   box-shadow: 3px 3px 10px 4px var(--color-primary-diff);
   border-radius: 10px 100px / 120px;
-  border: solid white 1px;
+  border: var(--color-button-border) 1px solid;
   margin-top: 15px;
   font-size: 18px;
   line-height: 50px;

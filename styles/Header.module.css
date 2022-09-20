@@ -10,7 +10,7 @@
   text-transform: uppercase;
   letter-spacing: 6px;
   margin: 20px 0px 0px 0px;
-  text-shadow: 3px 3px 4px var(--color-primary);
+  text-shadow: 2px 2px 3px var(--color-primary);
 }
 
 .toggle_position {
@@ -25,7 +25,6 @@
   @apply font-robotoMono;
 }
 
-
 @media (max-width: 767px) {
   .subtitle {
     text-align: center;
@@ -37,11 +36,10 @@
 }
 
 @media (max-width: 500px) {
-    .subtitle {
-      display: none;
-    }
+  .subtitle {
+    display: none;
+  }
 }
-
 
 @keyframes anim-lineUp {
   0% {

@@ -40,7 +40,7 @@ function Navbar() {
                     rel="noopener noreferrer"
                     className="py-4 px-2 transition duration-300"
                   >
-                    SERVICES + SKILLS
+                    PROJECTS
                   </a>
                   <a
                     href="#socials_section"
@@ -87,7 +87,7 @@ function Navbar() {
                   rel="noopener noreferrer"
                   className="block text-sm px-2 py-4 transition duration-300"
                 >
-                  Services + Skills
+                  Projects
                 </a>
               </li>
               <li>

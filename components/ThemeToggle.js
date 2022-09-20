@@ -49,7 +49,7 @@ const ToggleThumb = styled.span`
 `;
 
 const ThemeToggle = () => {
-  const [activeTheme, setActiveTheme] = useState(document.body.dataset.theme);
+  const [activeTheme, setActiveTheme] = useState("dark");
   const inactiveTheme = activeTheme === "dark" ? "light" : "dark";
 
   useEffect(() => {

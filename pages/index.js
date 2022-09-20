@@ -37,24 +37,21 @@ export default function Home() {
               "font-robotoMono text-base md:text-sm lg:text-md xl:text-lg 2xl:text-xl pr-0.5 md:pr-4 xl:pr-44 2xl:pr-64 mb-10"
             }
           >
-            I’m a community manager in tech. I enjoy enabling developers
-            to build cool stuff, building inclusive technical communities, and
-            breaking down abstract concepts into easy-to-understand
-            content and workflows. My empathy and technological curiosity fuels my passion for developer advocacy. <br />
+            I'm a computer science nerd working in developer relations. I enjoy
+            enabling developers to build cool stuff and breaking down abstract
+            concepts into easy-to-understand content + workflows. <br />
             <br />
-            <a className = "font-bold text-sky-400" href="https://twitter.com/kyleecodes">
-            ➡️  Follow Communal Tech on Twitter! <br />
-            <br />
+            <a
+              className="font-bold text-sky-400"
+              href="https://twitter.com/kyleecodes"
+            >
+              ➡️ Follow Communal Tech on Twitter! <br />
             </a>
-            <p className="font-bold">
-              The link below will take you to my landing page on Notion, which
-              includes my resume, work experience, and more about me!
-            </p>
           </p>
           <button className={styles.primary_button}>
             <a href="https://communaltech.notion.site/Kylee-Fields-Communal-Tech-1-0730bd5aa6a24f6d9e91b895e56cee48">
               {" "}
-              Learn More{" "}
+              View Projects{" "}
             </a>
           </button>
         </main>

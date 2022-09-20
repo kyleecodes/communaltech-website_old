@@ -4,11 +4,11 @@
   width: 100%;
 }
 .left_link_container {
-  border-radius: 100px 10px / 120px;
+  border-radius: 100px 20px / 120px;
   padding: 5% 6% 5% 6%;
   margin: 0px 0px 45px 0px;
   width: 70%;
-  border: rgba(255, 255, 255, 0.815) 1px solid;
+  border: var(--color-button-border) 1px solid;
   box-shadow: 3px 3px 10px 4px var(--color-primary-diff);
   text-align: left;
   display: inline-block;
@@ -27,11 +27,11 @@
   font-style: italic;
 }
 .right_link_container {
-  border-radius: 10px 100px / 120px;
+  border-radius: 20px 100px / 120px;
   padding: 5% 6% 5% 6%;
   margin: 0px 0px 45px 0px;
   width: 70%;
-  border: rgba(255, 255, 255, 0.815) 1px solid;
+  border: var(--color-button-border) 1px solid;
   box-shadow: 3px 3px 10px 4px var(--color-primary-diff);
   display: inline-block;
   text-align: right;
