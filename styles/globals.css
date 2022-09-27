@@ -57,6 +57,7 @@ body[data-theme="dark"] {
   --color-inverse-bg: white;
   --color-inverse-font: black;
   --color-button-border: rgba(255, 255, 255, 0.397);
+  --color-twitter-link: #22d3ee;
 }
 
 body[data-theme="light"] {
@@ -65,12 +66,13 @@ body[data-theme="light"] {
   --color-primary-diff: #eaaae0b9;
   --color-primary: #84637c;
   --color-contrast: #2bc0cbaf;
-  --color-bg-primary: white;
+  --color-bg-primary: rgb(235, 235, 235);
   --color-bg-toggle: #eaaae0b9;
   --color-bg-toggle-thumb: #84637c;
   --color-inverse-bg: black;
   --color-inverse-font: white;
   --color-button-border: rgba(1, 1, 1, 0.497);
+  --color-twitter-link: #1db9d1;
 }
 
 a {
@@ -196,4 +198,12 @@ a {
   100% {
     opacity: 1;
   }
+}
+
+.shine,
+.chrome {
+  font-size: 3em;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  font-weight: bold;
 }

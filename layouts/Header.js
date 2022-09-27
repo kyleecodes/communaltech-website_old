@@ -11,7 +11,8 @@ function Header() {
   return (
     <div className={styles.header_container}>
       <div className={styles.company_title}>Communal Tech</div>
-      <div className={styles.subtitle}> technical community management</div>
+      {/* Commenting out to save for later  */}
+      {/* <div className={styles.subtitle}> technical community management</div> */}
     </div>
   );
 }

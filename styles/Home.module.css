@@ -19,7 +19,6 @@ such as the Galaxy Fold  */
 .primary_button {
   box-shadow: 3px 3px 10px 4px var(--color-primary-diff);
   border-radius: 10px 100px / 120px;
-  border: var(--color-button-border) 1px solid;
   margin-top: 15px;
   font-size: 18px;
   line-height: 50px;
@@ -28,6 +27,11 @@ such as the Galaxy Fold  */
   -webkit-animation-delay: 0s;
   animation: slideLeft 3s forwards;
   animation-delay: 0s;
+}
+
+.twitter_link {
+  font-weight: bold;
+  color: var(--color-twitter-link);
 }
 
 .main_margin {

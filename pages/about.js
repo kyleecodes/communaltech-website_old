@@ -12,7 +12,7 @@ export default function About() {
 
       <main
         className={
-          "text-center px-2 md:px-14 lg:px-40 mx-4 md:mx-6 lg:mx-20 2xl:mx-40 my-4 md:my-6 lg:my-10 2xl:my-20"
+          "text-center px-2 md:px-14 lg:px-40 mx-4 md:mx-6 lg:mx-20 2xl:mx-40 my-10 lg:my-20"
         }
       >
         <div className={styles.main_margin}>
@@ -29,9 +29,9 @@ export default function About() {
               "font-robotoMono text-base md:text-sm lg:text-md xl:text-lg 2xl:text-xl mb-10"
             }
           >
-            Communal Tech is my business for various tech endeavors
-            (specialization pending) and brand for encouraging inclusion in the
-            tech industry. More to come soon, thanks for stopping by! 👋
+            Communal Tech is my business for various tech endeavors and brand
+            for encouraging inclusion in the tech industry. <br />
+            More to come soon, thanks for stopping by! 👋
           </p>
 
           <p

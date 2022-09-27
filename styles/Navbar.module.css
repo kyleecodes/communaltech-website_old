@@ -2,7 +2,6 @@
   margin: 25px 0px 10px 0px;
   text-align: center;
   border-radius: 10px 2px / 12px;
-  border: var(--color-button-border) 1px solid;
   box-shadow: 3px 2px 8px 3px var(--color-primary-diff);
   text-shadow: 2px 2px 3px var(--color-secondary);
   @apply font-sans;

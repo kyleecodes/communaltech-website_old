@@ -11,11 +11,7 @@ export default function Socials() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main
-        className={
-          "mx-6 md:mx-10 lg:mx-40 2xl:mx-80 my-4 md:my-6 lg:my-10 2xl:my-20"
-        }
-      >
+      <main className={"mx-6 md:mx-10 lg:mx-40 2xl:mx-80 my-10 lg:my-20"}>
         <div className={"text-2xl md:text-3xl lg:text-4xl 2xl:text-6xl mb-10"}>
           <div className={styles.line_height}>
             <h2 className={"text-center"}>~ SOCIALS ~</h2>

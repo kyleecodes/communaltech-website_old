@@ -37,12 +37,13 @@ export default function Home() {
               "font-robotoMono text-base md:text-sm lg:text-md xl:text-lg 2xl:text-xl pr-0.5 md:pr-4 xl:pr-44 2xl:pr-64 mb-10"
             }
           >
-            I'm a computer science nerd working in developer relations. I enjoy
-            enabling developers to build cool stuff and breaking down abstract
-            concepts into easy-to-understand content + workflows. <br />
+            I'm a junior dev & computer science nerd, working in developer
+            relations. I enjoy enabling developers to build cool stuff and
+            breaking down abstract concepts into easy-to-understand content +
+            workflows. <br />
             <br />
             <a
-              className="font-bold text-sky-400"
+              className={styles.twitter_link}
               href="https://twitter.com/kyleecodes"
             >
               ➡️ Follow Communal Tech on Twitter! <br />
