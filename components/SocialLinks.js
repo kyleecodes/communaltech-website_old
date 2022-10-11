@@ -9,7 +9,7 @@ function SocialLink() {
           href="https://blljhazo9cp.typeform.com/to/vOzyqBjF"
           rel="noopener noreferrer"
         >
-          <h2> contact form </h2>
+          <h2> contact </h2>
         </a>
       </div>
 
@@ -41,7 +41,6 @@ function SocialLink() {
           <h2> instagram </h2>{" "}
         </a>
       </div>
-
     </div>
   );
 }

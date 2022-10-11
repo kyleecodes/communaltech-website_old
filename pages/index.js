@@ -21,6 +21,12 @@ export default function Home() {
             "pr-0 md:pr-24 lg:pr-36 xl:pr-56 ml-4 md:ml-6 lg:ml-20 2xl:ml-40 mr-1 md:mr-10 lg:mr-40 2xl:mr-60 my-4 md:my-6 lg:my-10 2xl:my-20"
           }
         >
+          {/* <main
+          className="p-1 md:p-24 mx-2 md:mx-8 my-4 md:my-6"
+                  > */}
+          <div className="w-64 md:w-80">
+            <img class="float-right mb-10" src="/Kylee_Portrait.png"></img>
+          </div>
           <div
             className={
               "text-2xl md:text-3xl lg:text-4xl 2xl:text-6xl mb-1 md:mb-2"
@@ -34,12 +40,18 @@ export default function Home() {
           </div>
           <p
             className={
-              "font-robotoMono text-base md:text-sm lg:text-md xl:text-lg 2xl:text-xl pr-0.5 md:pr-4 xl:pr-44 2xl:pr-64 mb-10"
+              "font-robotoMono text-base md:text-sm lg:text-md xl:text-lg 2xl:text-xl pr-4 sm:pr-12 lg:pr-10 xl:pr-22 mb-10"
             }
           >
-            I'm a dev & computer science nerd, working in developer
-            relations, building technical communities, and creating technical content.
-            Overall, I enjoy enabling developers to build cool stuff! <br />
+          {/* <p
+            className={
+              "font-robotoMono text-base md:text-sm lg:text-md xl:text-lg 2xl:text-xl"
+            }
+          > */}
+            I'm a dev & computer science nerd, working in developer relations,
+            building technical communities, and creating technical content.
+            <br />
+            Overall, I enjoy enabling developers to build cool stuff through community & content! <br />
             <br />
             <a
               className={styles.twitter_link}

@@ -54,6 +54,9 @@ such as the Galaxy Fold  */
   .twitter_link {
     margin-top: 40px;
   }
+  .centered_link {
+    margin: 30px 5px 10px 5px;
+  }
 }
 
 @media (max-width: 400px) {

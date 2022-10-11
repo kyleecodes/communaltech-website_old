@@ -44,8 +44,8 @@ export default function About() {
 
           <p className={styles.centered_link}>
             {" "}
-            Learn more about Developer Relations, Technical Community Management, and
-            Technical Content Creation ⬇️
+            Learn more about Dev Relations, Technical Content Creation &
+            Community ⬇️
           </p>
           <button className={styles.primary_button}>
             <a
@@ -71,9 +71,7 @@ export default function About() {
           </button> */}
 
           <div className={styles.twitter_link}>
-            <a
-              href="https://twitter.com/communal_tech"
-            >
+            <a href="https://twitter.com/communal_tech">
               ➡️ Follow Communal Tech on Twitter! <br />
             </a>
           </div>
