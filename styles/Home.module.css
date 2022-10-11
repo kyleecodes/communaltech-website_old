@@ -32,16 +32,27 @@ such as the Galaxy Fold  */
 .twitter_link {
   font-weight: bold;
   color: var(--color-twitter-link);
+  margin-top: 30px;
 }
 
 .main_margin {
   margin: 3% 10% 3% 10%;
 }
 
+.centered_link {
+  text-align: center;
+  margin: 30px 30px 10px 30px;
+  font-weight: 300;
+}
+
 @media (max-width: 768px) {
   .primary_button {
     width: 80%;
     line-height: 40px;
+  }
+
+  .twitter_link {
+    margin-top: 40px;
   }
 }
 
@@ -52,6 +63,9 @@ such as the Galaxy Fold  */
   }
   .main_margin {
     margin: 0;
+  }
+  .twitter_link {
+    margin-top: 50px;
   }
 }
 

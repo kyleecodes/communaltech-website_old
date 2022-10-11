@@ -51,7 +51,7 @@ body[data-theme="dark"] {
   --color-primary-diff: #eaaae0b9;
   --color-secondary: #84637c;
   --color-contrast: #2bc0cbaf;
-  --color-bg-primary: rgb(21, 21, 21);
+  --color-bg-primary: rgb(6, 0, 10);
   --color-bg-toggle: #84637c;
   --color-bg-toggle-thumb: #84637c;
   --color-inverse-bg: white;
@@ -62,7 +62,7 @@ body[data-theme="dark"] {
 
 body[data-theme="light"] {
   --color-font: black;
-  --color-secondary: #eaaae0;
+  --color-secondary: #d0aaea;
   --color-primary-diff: #eaaae0b9;
   --color-primary: #84637c;
   --color-contrast: #2bc0cbaf;
@@ -198,12 +198,4 @@ a {
   100% {
     opacity: 1;
   }
-}
-
-.shine,
-.chrome {
-  font-size: 3em;
-  margin: 0 auto;
-  margin-bottom: 1em;
-  font-weight: bold;
 }
