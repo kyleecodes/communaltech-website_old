@@ -51,7 +51,7 @@ export default function About() {
           <button className={styles.primary_button}>
             <a
               target="_blank"
-              href="https://communaltech.notion.site/communaltech/Technical-Community-Management-Resources-1dcc6e2bfef3408fba7c502ceee1aad7"
+              href="https://communaltech.notion.site/Resources-for-Developer-Relations-Technical-Community-Management-and-Technical-Content-Creation-247e108f34d440a184c3efafe8d83f3e"
               rel="noopener noreferrer"
             >
               {" "}
