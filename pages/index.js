@@ -51,7 +51,7 @@ export default function Home() {
             I'm a dev & computer science nerd, working in developer relations,
             building technical communities, and creating technical content.
             <br />
-            Overall, I enjoy enabling developers to build cool stuff through community & content! <br />
+            Overall, I enjoy enabling developers to build cool stuff! <br />
             <br />
             <a
               className={styles.twitter_link}
