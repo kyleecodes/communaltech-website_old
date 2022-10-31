@@ -7,7 +7,10 @@ export default function About() {
       <Head>
         <title>Communal Tech</title>
         <meta name="description" content="Website for Communal Tech" />
-        <meta name="keywords" content="Developer Relations, Technical, Content Creation, Community Management "></meta>
+        <meta
+          name="keywords"
+          content="Developer Relations, Technical, Content Creation, Community Management "
+        ></meta>
         <link rel="icon" href="/favicon.png" />
       </Head>
 
@@ -39,15 +42,10 @@ export default function About() {
             }
           >
             Communal Tech is a business focusing on developer relations,
-            technical community, and technical content creation. 👋 Stay tuned
-            for a list of services!
+            technical community management, and technical content creation production. To learn more
+            about these services, check out my 'Resources' below!
           </p>
 
-          <p className={styles.centered_link}>
-            {" "}
-            Learn more about Dev Relations, Technical Content Creation &
-            Community ⬇️
-          </p>
           <button className={styles.primary_button}>
             <a
               target="_blank"
@@ -59,19 +57,32 @@ export default function About() {
             </a>
           </button>
 
-          {/* Saving for later  */}
-          {/* <button className={styles.primary_button}>
+          <p
+            className={
+              "font-robotoMono text-base md:text-sm lg:text-md xl:text-lg 2xl:text-xl my-10 font-semibold"
+            }
+          >
+            {" "}
+            Services offered, but not limited to: knowledge base management,
+            developer education, external & internal onboarding, community
+            program management, content creation, social media management,
+            public speaking, live event hosting, value chain & performance
+            analysis, customer relationship management, moderation, automation,
+            and user-facing troubleshooting.
+          </p>
+
+          <button className={styles.primary_button}>
             <a
               target="_blank"
               href="https://blljhazo9cp.typeform.com/to/vOzyqBjF"
               rel="noopener noreferrer"
             >
               {" "}
-              Let's Connect!{" "}
+              Work with me!{" "}
             </a>
-          </button> */}
-
+          </button>
           <div className={styles.twitter_link}>
+            <br />
             <a href="https://twitter.com/communal_tech">
               ➡️ Follow Communal Tech on Twitter! <br />
             </a>
