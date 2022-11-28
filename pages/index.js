@@ -46,14 +46,8 @@ export default function Home() {
             I'm a dev & computer science nerd, working in developer relations,
             managing technical communities, and creating technical content.
             <br />
-            Overall, I enjoy enabling developers to build cool stuff! <br />
+            Overall, I enjoy enabling developers from all backgrounds to build cool stuff! <br />
             <br />
-            <a
-              className={styles.twitter_link}
-              href="https://twitter.com/kyleecodes"
-            >
-              ➡️ Follow Kylee on Twitter! <br />
-            </a>
           </p>
           <button className={styles.primary_button}>
             <a href="https://www.notion.so/communaltech/Kylee-Fields-Communal-Tech-0730bd5aa6a24f6d9e91b895e56cee48">
