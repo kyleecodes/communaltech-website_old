@@ -30,23 +30,30 @@ function SocialLink() {
       </div>
 
       <div className={styles.left_link_container}>
-        <a href="https://twitter.com/communal_tech">
-          <h2> twitter </h2>{" "}
-        </a>
-      </div>
-
-      <div className={styles.right_link_container}>
-        <a href="https://github.com/kyleecodes">
-          <h2> github </h2>{" "}
-        </a>
-      </div>
-      <div className={styles.left_link_container}>
         <a href="https://www.linkedin.com/in/kyleecodes/">
           <h2> linkedIn </h2>
         </a>
       </div>
 
       <div className={styles.right_link_container}>
+        <a href="https://hachyderm.io/@communaltech">
+          <h2> mastodon </h2>{" "}
+        </a>
+      </div>
+
+      <div className={styles.left_link_container}>
+        <a href="https://github.com/kyleecodes">
+          <h2> github </h2>{" "}
+        </a>
+      </div>
+
+      <div className={styles.right_link_container}>
+        <a href="https://twitter.com/communal_tech">
+          <h2> twitter </h2>{" "}
+        </a>
+      </div>
+
+      <div className={styles.left_link_container}>
         <a href="https://www.instagram.com/kylee.codes/">
           <h2> instagram </h2>{" "}
         </a>
