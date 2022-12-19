@@ -54,6 +54,12 @@ function SocialLink() {
       </div>
 
       <div className={styles.left_link_container}>
+        <a href="https://lenster.xyz/u/communaltech">
+          <h2> lenster </h2>{" "}
+        </a>
+      </div>
+
+      <div className={styles.right_link_container}>
         <a href="https://www.instagram.com/kylee.codes/">
           <h2> instagram </h2>{" "}
         </a>
