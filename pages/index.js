@@ -43,10 +43,10 @@ export default function Home() {
               "font-robotoMono text-base md:text-sm lg:text-md xl:text-lg 2xl:text-xl pr-4 sm:pr-12 lg:pr-10 xl:pr-22"
             }
           >
-            I'm a dev & computer science nerd, working in developer relations,
-            managing technical communities, and creating technical content.
-            <br />
-            Overall, I enjoy enabling developers from all backgrounds to build cool stuff!
+     I work in developer relations as a community manager and content developer, 
+     and I provide consulting under my business, Communal Tech. 
+     <br />
+     Overall, I enjoy enabling developers to build cool stuff & pushing tech ecosystems forward!
           </p>
           <div className={styles.secondary_button}>
             <a
