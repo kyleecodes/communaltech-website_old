@@ -40,17 +40,27 @@ export default function Home() {
           </div>
           <p
             className={
-              "font-robotoMono text-base md:text-sm lg:text-md xl:text-lg 2xl:text-xl pr-4 sm:pr-12 lg:pr-10 xl:pr-22 mb-10"
+              "font-robotoMono text-base md:text-sm lg:text-md xl:text-lg 2xl:text-xl pr-4 sm:pr-12 lg:pr-10 xl:pr-22"
             }
           >
             I'm a dev & computer science nerd, working in developer relations,
             managing technical communities, and creating technical content.
             <br />
-            Overall, I enjoy enabling developers from all backgrounds to build cool stuff! <br />
-            <br />
+            Overall, I enjoy enabling developers from all backgrounds to build cool stuff!
           </p>
+          <div className={styles.secondary_button}>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.notion.so/communaltech/Kylee-Fields-Communal-Tech-0730bd5aa6a24f6d9e91b895e56cee48#689c90baae9a47dcb4dcb23ed6c11ae2">
+              Learn more about Kylee <br />
+            </a>
+          </div>
           <button className={styles.primary_button}>
-            <a href="https://www.notion.so/communaltech/Kylee-Fields-Communal-Tech-0730bd5aa6a24f6d9e91b895e56cee48">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.notion.so/communaltech/Kylee-Fields-Communal-Tech-0730bd5aa6a24f6d9e91b895e56cee48">
               {" "}
               View Projects{" "}
             </a>

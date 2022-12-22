@@ -29,10 +29,16 @@ such as the Galaxy Fold  */
   animation-delay: 0s;
 }
 
-.twitter_link {
+.secondary_button {
   font-weight: bold;
-  color: var(--color-twitter-link);
-  margin-top: 30px;
+  margin: 1% 0px 3% 0px;
+  -webkit-animation: slideLeft 3s forwards;
+  -webkit-animation-delay: 0s;
+  animation: slideLeft 3s forwards;
+  animation-delay: 0s;
+  text-shadow: 1px 1px 1px var(--color-primary);
+  @apply font-robotoMono;
+  font-size: 18px;
 }
 
 .main_margin {
@@ -51,11 +57,13 @@ such as the Galaxy Fold  */
     line-height: 40px;
   }
 
-  .twitter_link {
+  .secondary_button {
     margin-top: 40px;
+    /* font-size: 18px */
   }
+
   .centered_link {
-    margin: 30px 5px 10px 5px;
+    margin: 4%;
   }
 }
 
@@ -64,11 +72,14 @@ such as the Galaxy Fold  */
     width: 100%;
     margin-top: 10px;
   }
+
   .main_margin {
     margin: 0;
   }
-  .twitter_link {
-    margin-top: 50px;
+
+  .secondary_button {
+    margin-bottom: 5%;
+    font-size: 15px;
   }
 }
 
@@ -77,13 +88,16 @@ such as the Galaxy Fold  */
     opacity: 0;
     transform: translateX(-80%);
   }
+
   20% {
     opacity: 0;
   }
+
   50% {
     opacity: 1;
     transform: translateX(0%);
   }
+
   100% {
     opacity: 1;
     transform: translateX(0%);

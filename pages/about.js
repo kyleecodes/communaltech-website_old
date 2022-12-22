@@ -81,12 +81,6 @@ export default function About() {
               Work with me!{" "}
             </a>
           </button>
-          <div className={styles.twitter_link}>
-            <br />
-            <a href="https://twitter.com/communal_tech">
-              ➡️ Follow Communal Tech on Twitter! <br />
-            </a>
-          </div>
         </div>
       </main>
     </div>
