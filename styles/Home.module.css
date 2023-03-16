@@ -103,3 +103,18 @@ such as the Galaxy Fold  */
     transform: translateX(0%);
   }
 }
+
+.portfolio_icon_container {
+  display: block;
+  border: 2px solid blue;
+}
+
+.portfolio_icon {
+  border: red solid 2px;
+  height: 100px;
+  width: 100px;
+  padding: 20px;
+  margin: 20px;
+  display: display-inline;
+}
+
