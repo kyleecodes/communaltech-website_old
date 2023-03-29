@@ -48,6 +48,12 @@ function Navbar() {
                   >
                     LINKS
                   </a>
+                  <a
+                    href="/blog"
+                    className="py-4 px-2 transition duration-300"
+                  >
+                    BLOG
+                  </a>
                 </div>
               </div>
               <div className="hidden md:flex items-center space-x-3 ">
@@ -104,6 +110,13 @@ function Navbar() {
                   onClick={() => setToggle(!toggle)}
                 >
                   Links
+                </a>
+                <a
+                  href="/blog"
+                  className="block text-sm px-2 py-4 transition duration-300"
+                  onClick={() => setToggle(!toggle)}
+                >
+                  Blog
                 </a>
               </li>
               <li>
