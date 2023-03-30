@@ -1,9 +1,10 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Blog.module.css";
 import NavBar from "../components/NavBar";
 import { getSortedPostsData } from '../lib/posts';
 import Link from 'next/link';
 import Date from '../components/Date';
+import Image from "next/image";
 
 export default function Blog({ allPostsData }) {
     return (
@@ -14,16 +15,38 @@ export default function Blog({ allPostsData }) {
                 <meta name="keywords" content="Developer Relations, Technical, Content Creation, Community Management "></meta>
                 <link rel="icon" href="/favicon.png" />
             </Head>
-            <NavBar />
+            <div className="sticky top-0 z-50">
+                <NavBar />
+            </div>
             <main className={"mx-6 md:mx-10 lg:mx-40 2xl:mx-80 my-1 lg:my-10"}>
-                This is my blog
-                <ul>
-                    {allPostsData.map(({ id, date, title }) => (
-                        <li key={id}>
+                <div
+                    className={
+                        "text-2xl md:text-3xl lg:text-4xl 2xl:text-6xl mb-1 md:mb-2"
+                    }
+                >
+                    <h2 className={styles.blog_title}>Welcome 👋</h2>{" "}
+                    <div className={styles.blog_subtitle}>A developer advocacy blog by Kylee Fields.</div>
+                    <p
+                        className={
+                            "font-robotoMono text-base md:text-sm lg:text-md xl:text-lg 2xl:text-xl mb-10"
+                        }
+                    >
+                        Discussing various topics, including <i>but not limited to</i>: community management, content development, advocacy for underrepresented groups in tech, technical ramblings, and tech tips / tutorials!
+                    </p>
+                </div>
+                <ul className={styles.bloglist_container}>
+                    {allPostsData.map(({ id, date, title, hero_image }) => (
+                        <li className={styles.bloglist_item} key={id}>
+                            <div>
+                                <Image
+                                    width={384}
+                                    height={288}
+                                    src={hero_image}
+                                    alt={hero_image}
+                                />
+                            </div>
                             <Link href={`/posts/${id}`}>{title}</Link>
                             <br />
-                            {id}
-                            <br/>
                             <small>
                                 <Date dateString={date} />
                             </small>

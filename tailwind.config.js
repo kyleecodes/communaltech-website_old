@@ -12,6 +12,9 @@ module.exports = {
         'sans': ['Lexend Tera', ...defaultTheme.fontFamily.sans],
         'robotoMono': ['Roboto\\ Mono']
       },
+      screens: {
+        '3xl': "2625px",
+      },
     },
   },
   plugins: [],

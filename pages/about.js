@@ -70,7 +70,14 @@ export default function About() {
             analysis, customer relationship management, moderation, automation,
             and user-facing troubleshooting.
           </p>
-
+          <p
+            className={
+              "font-robotoMono text-base md:text-sm lg:text-md xl:text-lg 2xl:text-xl my-10 font-medium"
+            }
+          >
+            {" "}
+            For a list of my software engineering skills, check out my <strong><a href="https://www.notion.so/communaltech/Kylee-Fields-Communal-Tech-1-0730bd5aa6a24f6d9e91b895e56cee48#9d1c94f8f82c4781b8e7befcd8fb9189">Projects</a></strong>
+          </p>
           <button className={styles.primary_button}>
             <a
               target="_blank"

@@ -1,6 +1,7 @@
 ---
 title: 'Test2'
-date: '2023-01-01'
+date: '2022-01-02'
+hero_image: /post_test2.png
 ---
 
-This is my second test post
+This is my second post

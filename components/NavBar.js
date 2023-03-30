@@ -24,7 +24,7 @@ function Navbar() {
                   </span>
                 </div>
                 {/* Desktop Menu */}
-                <div className="hidden md:flex items-center space-x-1">
+                <div className="hidden lg:flex items-center space-x-1">
                   <a href="/" className="py-4 px-2">
                     HOME
                   </a>
@@ -67,7 +67,7 @@ function Navbar() {
                 </a>
               </div>
               {/* Mobile menu toggle */}
-              <div className="md:hidden flex items-center">
+              <div className="lg:hidden flex items-center">
                 <button
                   className="outline-none mobile-menu-button"
                   onClick={() => setToggle(!toggle)}
