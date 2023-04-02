@@ -70,14 +70,14 @@ such as the Galaxy Fold  */
 @media (min-width: 990px) {
   .left_link_container {
     width: 52%;
-    padding: 4% 5% 4% 5%;
+    padding: 3% 4% 3% 4%;
   }
   .left_link_container h2 {
     font-size: 1.5em;
   }
   .right_link_container {
     width: 52%;
-    padding: 4% 5% 4% 5%;
+    padding: 3% 4% 3% 4%;
   }
   .right_link_container h2 {
     font-size: 1.5em;

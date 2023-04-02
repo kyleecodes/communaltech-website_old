@@ -15,21 +15,19 @@ export default function Post({ postData }) {
                 <NavBar />
             </div>
             <section className={styles.post_container}>
-                <div className={"lg:ml-3 2xl:ml-80 3xl:ml-[34rem]"}>
-                    {/* <div className={styles.post_content}> */}
+                <div className={"lg:ml-3 2xl:ml-80 4xl:ml-[34rem]"}>
                     <Image
                         width="960"
                         height="540"
                         src={postData.hero_image}
                         alt={`blog_hero_${postData.title}`}
                     />
-
-                    <h1><strong> This is the title: {postData.title}</strong></h1>
-                    <br />
-                    This is the date: <Date dateString={postData.date} />
-                    <br />
-                    This is the text:
-                    <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+                    <div className={"lg:mr-3 2xl:mr-96 4xl:mr-[64rem]"}>
+                        <div className={styles.post_title}>This is the title: {postData.title}</div>
+                        Published: <Date dateString={postData.date} />
+                        <br />
+                        <div className={styles.post_content} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+                    </div>
                 </div>
             </section>
         </main>
@@ -45,7 +43,6 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-    // Add the "await" keyword like this:
     const postData = await getPostData(params.id);
 
     return {

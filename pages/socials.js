@@ -23,7 +23,7 @@ export default function Socials() {
             }
           >
             Be cautious of scammers, these are my only accounts. I will never
-            ask followers for crypto or money.
+            ask for crypto or money.
           </p>
         </div>
 

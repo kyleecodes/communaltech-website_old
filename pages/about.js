@@ -38,7 +38,7 @@ export default function About() {
 
           <p
             className={
-              "font-robotoMono text-base md:text-sm lg:text-md xl:text-lg 2xl:text-xl mb-10"
+              "font-robotoMono text-base md:text-sm lg:text-md xl:text-lg 2xl:text-xl mb-10 4xl:mx-96"
             }
           >
             Communal Tech is a business focusing on developer relations,
@@ -59,7 +59,7 @@ export default function About() {
 
           <p
             className={
-              "font-robotoMono text-base md:text-sm lg:text-md xl:text-lg 2xl:text-xl my-10 font-semibold"
+              "font-robotoMono text-base md:text-sm lg:text-md xl:text-lg 2xl:text-xl my-10 font-semibold 4xl:mx-96"
             }
           >
             {" "}

@@ -17,23 +17,35 @@
 
 .bloglist_item {
     width: 100%;
+    padding-right: 10%;
     margin: 10px 0px 10px 0px;
     @apply font-robotoMono;
 }
 
+.blog_post_title {
+    font-size: 1.5vh;
+    letter-spacing: 4.5px;
+    /* margin: 1% 0% 1% 0%; */
+    @apply font-robotoMono;
+}
+
 .post_container {
-    border: 2px solid red;
     @apply font-robotoMono;
     /* width: 100%; */
 }
 
 .post_content {
-    border: 2px solid blue;
-    /* width: 40%;
-    margin-left: 30%;
-    margin-right: 30%; */
-    /* margin: 0%, 30%, 0%, 30%; */
+    margin-top: 30px;
+    padding: 10px;
 }
+
+.post_title {
+    font-size: 2.7vh;
+    letter-spacing: 6px;
+    margin: 20px 0px 0px 0px;
+    text-shadow: 1px 1px 2px var(--color-primary);
+    @apply font-robotoMono;
+  }
 
 /* 1280px */
 @media (min-width: 1536px) {

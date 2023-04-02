@@ -45,8 +45,7 @@ export default function Blog({ allPostsData }) {
                                     alt={hero_image}
                                 />
                             </div>
-                            <Link href={`/posts/${id}`}>{title}</Link>
-                            <br />
+                            <div className={styles.blog_post_title}><Link href={`/posts/${id}`}>{title}</Link></div>
                             <small>
                                 <Date dateString={date} />
                             </small>
