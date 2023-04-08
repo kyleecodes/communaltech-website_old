@@ -38,12 +38,12 @@ export default function About() {
 
           <p
             className={
-              "font-robotoMono text-base md:text-sm lg:text-md xl:text-lg 2xl:text-xl mb-10"
+              "font-robotoMono text-base md:text-sm lg:text-md xl:text-lg 2xl:text-xl mb-10 4xl:mx-96"
             }
           >
-            Communal Tech is a business focusing on developer relations,
-            technical community management, and technical content creation production. To learn more
-            about these services, check out my 'Resources' below!
+            Communal Tech is a developer advocacy company created by Kylee Fields. It provides consulting for developer relations,
+            technical community management, and technical content creation. To learn more
+            about what these terms mean, check out my 'Resources' below!
           </p>
 
           <button className={styles.primary_button}>
@@ -59,18 +59,25 @@ export default function About() {
 
           <p
             className={
-              "font-robotoMono text-base md:text-sm lg:text-md xl:text-lg 2xl:text-xl my-10 font-semibold"
+              "font-robotoMono text-base md:text-sm lg:text-md xl:text-lg 2xl:text-xl my-10 font-semibold 4xl:mx-96"
             }
           >
             {" "}
             Services offered, but not limited to: knowledge base management,
             developer education, external & internal onboarding, community
-            program management, content creation, social media management,
+            program management, content creation, video production, social media management,
             public speaking, live event hosting, value chain & performance
             analysis, customer relationship management, moderation, automation,
             and user-facing troubleshooting.
           </p>
-
+          <p
+            className={
+              "font-robotoMono text-base md:text-sm lg:text-md xl:text-lg 2xl:text-xl my-10 font-medium"
+            }
+          >
+            {" "}
+            For a list of my software engineering skills, check out my <strong><a href="https://www.notion.so/communaltech/Kylee-Fields-Communal-Tech-1-0730bd5aa6a24f6d9e91b895e56cee48#9d1c94f8f82c4781b8e7befcd8fb9189">Projects</a></strong>
+          </p>
           <button className={styles.primary_button}>
             <a
               target="_blank"

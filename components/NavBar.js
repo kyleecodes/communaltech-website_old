@@ -24,12 +24,12 @@ function Navbar() {
                   </span>
                 </div>
                 {/* Desktop Menu */}
-                <div className="hidden md:flex items-center space-x-1">
+                <div className="hidden lg:flex items-center space-x-1">
                   <a href="/" className="py-4 px-2">
                     HOME
                   </a>
                   <a
-                    href="#about_section"
+                    href="/#about_section"
                     className="py-4 px-2 transition duration-300"
                   >
                     ABOUT
@@ -43,10 +43,16 @@ function Navbar() {
                     PROJECTS
                   </a>
                   <a
-                    href="#socials_section"
+                    href="/#socials_section"
                     className="py-4 px-2 transition duration-300"
                   >
-                    LINKS
+                    SOCIALS
+                  </a>
+                  <a
+                    href="/blog"
+                    className="py-4 px-2 transition duration-300"
+                  >
+                    BLOG
                   </a>
                 </div>
               </div>
@@ -61,7 +67,7 @@ function Navbar() {
                 </a>
               </div>
               {/* Mobile menu toggle */}
-              <div className="md:hidden flex items-center">
+              <div className="lg:hidden flex items-center">
                 <button
                   className="outline-none mobile-menu-button"
                   onClick={() => setToggle(!toggle)}
@@ -92,18 +98,25 @@ function Navbar() {
               </li>
               <li>
                 <a
-                  href="#about_section"
+                  href="/#about_section"
                   className="block text-sm px-2 py-4 transition duration-300"
                   onClick={() => setToggle(!toggle)}
                 >
                   About
                 </a>
                 <a
-                  href="#socials_section"
+                  href="/#socials_section"
                   className="block text-sm px-2 py-4 transition duration-300"
                   onClick={() => setToggle(!toggle)}
                 >
-                  Links
+                  Socials
+                </a>
+                <a
+                  href="/blog"
+                  className="block text-sm px-2 py-4 transition duration-300"
+                  onClick={() => setToggle(!toggle)}
+                >
+                  Blog
                 </a>
               </li>
               <li>

@@ -3,6 +3,7 @@
   text-align: center;
   width: 100%;
 }
+
 .left_link_container {
   border-radius: 100px 20px / 120px;
   padding: 5% 6% 5% 6%;
@@ -17,14 +18,17 @@
 .left_link_container p {
   display: none;
 }
+
 .left_link_container h2 {
   font-size: 1.25em;
   text-shadow: 3px 3px 4px var(--color-secondary);
 }
+
 .left_link_container h2:hover {
   color: var(--color-secondary);
   font-style: italic;
 }
+
 .right_link_container {
   border-radius: 20px 100px / 120px;
   padding: 5% 6% 5% 6%;
@@ -39,10 +43,12 @@
 .right_link_container p {
   display: none;
 }
+
 .right_link_container h2 {
   font-size: 1.25em;
   text-shadow: 3px 3px 4px var(--color-secondary);
 }
+
 .right_link_container h2:hover {
   color: var(--color-secondary);
   font-style: italic;
@@ -55,31 +61,36 @@ such as the Galaxy Fold  */
     width: 80%;
     padding: 4% 5% 4% 9%;
   }
+
   .left_link_container h2 {
     font-size: 1.25em;
   }
+
   .right_link_container {
     width: 80%;
     padding: 4% 5% 4% 5%;
   }
+
   .right_link_container h2 {
     font-size: 1.25em;
   }
 }
 
-@media (min-width: 990px) {
+@media (min-width: 769px) {
   .left_link_container {
-    width: 52%;
-    padding: 4% 5% 4% 5%;
+    padding: 25px 30px 25px 30px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
-  .left_link_container h2 {
-    font-size: 1.5em;
-  }
+
   .right_link_container {
-    width: 52%;
-    padding: 4% 5% 4% 5%;
+    padding: 25px 30px 25px 30px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
-  .right_link_container h2 {
-    font-size: 1.5em;
-  }
+
 }

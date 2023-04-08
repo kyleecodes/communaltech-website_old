@@ -44,6 +44,11 @@ section {
   padding-top: 40px;
 }
 
+blockquote {
+  margin: 16px;
+  font-style: italic;
+}
+
 body,
 body[data-theme="dark"] {
   --color-font: white;
