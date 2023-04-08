@@ -41,9 +41,9 @@ export default function About() {
               "font-robotoMono text-base md:text-sm lg:text-md xl:text-lg 2xl:text-xl mb-10 4xl:mx-96"
             }
           >
-            Communal Tech is a business focusing on developer relations,
-            technical community management, and technical content creation production. To learn more
-            about these services, check out my 'Resources' below!
+            Communal Tech is a developer advocacy company created by Kylee Fields. It provides consulting for developer relations,
+            technical community management, and technical content creation. To learn more
+            about what these terms mean, check out my 'Resources' below!
           </p>
 
           <button className={styles.primary_button}>
@@ -65,7 +65,7 @@ export default function About() {
             {" "}
             Services offered, but not limited to: knowledge base management,
             developer education, external & internal onboarding, community
-            program management, content creation, social media management,
+            program management, content creation, video production, social media management,
             public speaking, live event hosting, value chain & performance
             analysis, customer relationship management, moderation, automation,
             and user-facing troubleshooting.

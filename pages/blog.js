@@ -18,7 +18,7 @@ export default function Blog({ allPostsData }) {
             <div className="sticky top-0 z-50">
                 <NavBar />
             </div>
-            <main className={"mx-6 md:mx-10 lg:mx-40 2xl:mx-80 my-1 lg:my-10"}>
+            <main className={"mx-6 md:mx-10 2xl:mx-20 3xl:mx-80 my-1 lg:my-10"}>
                 <div
                     className={
                         "text-2xl md:text-3xl lg:text-4xl 2xl:text-6xl mb-1 md:mb-2"
@@ -32,12 +32,14 @@ export default function Blog({ allPostsData }) {
                         }
                     >
                         Discussing various topics, including <i>but not limited to</i>: community management, content development, advocacy for underrepresented groups in tech, technical ramblings, and tech tips / tutorials!
+                        <br />
+                        This is a raw, in-progress blog, stay tuned for updates and report any bugs <u><a href="">here</a></u>.
                     </p>
                 </div>
                 <ul className={styles.bloglist_container}>
                     {allPostsData.map(({ id, date, title, hero_image }) => (
                         <li className={styles.bloglist_item} key={id}>
-                            <div>
+                            <div className={styles.bloglist_item_hero_img_container}>
                                 <Image
                                     width={384}
                                     height={288}
@@ -45,10 +47,10 @@ export default function Blog({ allPostsData }) {
                                     alt={hero_image}
                                 />
                             </div>
-                            <div className={styles.blog_post_title}><Link href={`/posts/${id}`}>{title}</Link></div>
-                            <small>
-                                <Date dateString={date} />
-                            </small>
+                            <div className={styles.bloglist_item_title}><Link href={`/posts/${id}`}>{title}</Link></div>
+                            <div className={styles.bloglist_item_date}>
+                                Published: <Date dateString={date} />
+                            </div>
                         </li>
                     ))}
                 </ul>

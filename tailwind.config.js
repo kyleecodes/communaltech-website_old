@@ -13,7 +13,7 @@ module.exports = {
         'robotoMono': ['Roboto\\ Mono']
       },
       screens: {
-        '3xl': '2190',
+        '3xl': '1920px',
         '4xl': "2625px",
       },
     },

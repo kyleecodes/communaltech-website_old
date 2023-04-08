@@ -21,9 +21,6 @@ export default function Home() {
             "pr-0 md:pr-24 lg:pr-36 xl:pr-56 ml-4 md:ml-6 lg:ml-20 2xl:ml-40 mr-1 md:mr-10 lg:mr-40 2xl:mr-60 my-4 md:my-6 lg:my-10 2xl:my-20"
           }
         >
-          {/* <main
-          className="p-1 md:p-24 mx-2 md:mx-8 my-4 md:my-6"
-                  > */}
           <div className="w-64 md:w-80">
             <img className="float-right mb-10" src="/Kylee_Portrait.png"></img>
           </div>
@@ -46,7 +43,7 @@ export default function Home() {
             I work as a developer community manager and technical content developer!
             Currently consulting under my business, Communal Tech.
             <br />
-            Overall, I enjoy enabling developers to build cool stuff & pushing tech ecosystems forward!
+            Overall, I enjoy enabling developers to build cool stuff & pushing tech ecosystems forward! 🌈
           </p>
           <div className={styles.secondary_button}>
             <a
