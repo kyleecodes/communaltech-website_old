@@ -82,7 +82,7 @@ function Navbar() {
           {toggle && (
             <ul className="">
               <li className="active">
-                <a href="" className="block text-sm px-2 py-4">
+                <a href="/" className="block text-sm px-2 py-4">
                   Home
                 </a>
               </li>

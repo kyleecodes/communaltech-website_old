@@ -32,8 +32,6 @@ export default function Blog({ allPostsData }) {
                         }
                     >
                         Discussing various topics, including <i>but not limited to</i>: community management, content development, advocacy for underrepresented groups in tech, technical ramblings, and tech tips / tutorials!
-                        <br />
-                        This is a raw, in-progress blog, stay tuned for updates and report any bugs <u><a href="">here</a></u>.
                     </p>
                 </div>
                 <ul className={styles.bloglist_container}>

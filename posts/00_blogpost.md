@@ -4,7 +4,7 @@ date: '2023-01-29'
 hero_image: /00_blogpost_cover.png
 ---
 
-*This blog post is for anyone starting a new community program in the tech industry. Whether your community targets indie developers, professional engineers, gamers, or scientists, this blog presents a starting strategy for designing technical community programs. In this article, we will be focusing on developer communities.*
+*This blog post is for anyone starting a new community program in the tech industry. In this article, I discuss a breakdown of a high-level, flexible community strategy designed to provide a starting point for developer community programs.*
 
 ---
 
@@ -179,10 +179,8 @@ Now it is time to set program metrics, timelines, and deliverables, here are som
 *   [Check out this awesome Airtable by Tessa Kriesel, Head of Developer Relations at Snapchat, for example, metrics used in developer community programs.](https://airtable.com/shryDVNAyA1DLl5uD)
 
 
-# Final Thoughts
+# Additional Thoughts
 
 *   When joining a team as a consultant, sometimes you're hired to provide solutions to predetermined gaps in the community experience. Other times, leadership is still in an investigative phase and needs your help finding the problem. This determines your investigative depth for assessing the developer experience user map and developing personas. 
     
-*   This is a breakdown of a high-level, flexible community strategy designed to provide a starting point for the majority of developer community programs. It does not go into depth about other programs that will likely fit under your over-arching community program, such as content development and community campaign programs. 
-    
-*   For advocate programs and youth, user advocacy & education will be the most paramount & primary focus!
+*   For advocate programs and youth, user advocacy & education will be the primary focus!
