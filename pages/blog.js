@@ -32,6 +32,8 @@ export default function Blog({ allPostsData }) {
                         }
                     >
                         Discussing various topics, including <i>but not limited to</i>: community management, content development, advocacy for underrepresented groups in tech, technical ramblings, and tech tips / tutorials!
+                        <br/>
+                        This blog is new, check out my <a href="https://communaltech.hashnode.dev/"><u>Hashnode blog</u></a> for more posts! 
                     </p>
                 </div>
                 <ul className={styles.bloglist_container}>

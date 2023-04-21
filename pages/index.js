@@ -40,8 +40,7 @@ export default function Home() {
               "font-robotoMono text-base md:text-sm lg:text-md xl:text-lg 2xl:text-xl pr-4 sm:pr-12 lg:pr-10 xl:pr-22"
             }
           >
-            I'm a developer community manager and technical content developer.
-            Currently consulting under my business, Communal Tech.
+            I'm a developer advocate and community manager.
             <br />
             Overall, I enjoy enabling developers to build cool stuff & pushing tech ecosystems forward! 🌈
           </p>

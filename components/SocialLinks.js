@@ -25,7 +25,7 @@ function SocialLink() {
 
       <div className={styles.right_link_container}>
         <a href="https://communaltech.hashnode.dev/">
-          <h2> blog </h2>{" "}
+          <h2> hashnode </h2>{" "}
         </a>
       </div>
 
