@@ -25,7 +25,7 @@ export default function Blog({ allPostsData }) {
                     }
                 >
                     <h2 className={styles.blog_title}>Welcome 👋</h2>{" "}
-                    <div className={styles.blog_subtitle}>A developer advocacy blog by Kylee Fields.</div>
+                    <div className={styles.blog_subtitle}>A developer advocacy micro-blog by Kylee Fields.</div>
                     <p
                         className={
                             "font-robotoMono text-base md:text-sm lg:text-md xl:text-lg 2xl:text-xl mb-10"
@@ -33,7 +33,7 @@ export default function Blog({ allPostsData }) {
                     >
                         Discussing various topics, including <i>but not limited to</i>: community management, content development, advocacy for underrepresented groups in tech, technical ramblings, and tech tips / tutorials!
                         <br/>
-                        This blog is new, check out my <a href="https://communaltech.hashnode.dev/"><u>Hashnode blog</u></a> for more posts! 
+                        This micro-blog is new, check out my <a href="https://communaltech.hashnode.dev/"><u>Hashnode blog</u></a> for more posts! 
                     </p>
                 </div>
                 <ul className={styles.bloglist_container}>
