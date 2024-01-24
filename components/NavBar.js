@@ -59,7 +59,7 @@ function Navbar() {
               <div className="hidden md:flex items-center space-x-3 ">
                 <a
                   target="_blank"
-                  href="https://blljhazo9cp.typeform.com/to/vOzyqBjF"
+                  href="https://form.typeform.com/to/vOzyqBjF?typeform-source=blljhazo9cp.typeform.com"
                   rel="noopener noreferrer"
                   className="py-2 px-2 rounded transition duration-300"
                 >
@@ -122,7 +122,7 @@ function Navbar() {
               <li>
                 <a
                   target="_blank"
-                  href="https://blljhazo9cp.typeform.com/to/vOzyqBjF"
+                  href="https://form.typeform.com/to/vOzyqBjF?typeform-source=blljhazo9cp.typeform.com"
                   rel="noopener noreferrer"
                   className="block text-sm px-2 py-4 transition duration-300 font-bold"
                 >

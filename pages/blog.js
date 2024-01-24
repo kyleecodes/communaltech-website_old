@@ -31,9 +31,7 @@ export default function Blog({ allPostsData }) {
                             "font-robotoMono text-base md:text-sm lg:text-md xl:text-lg 2xl:text-xl mb-10"
                         }
                     >
-                        Discussing various topics, including <i>but not limited to</i>: community management, content development, advocacy for underrepresented groups in tech, technical ramblings, and tech tips / tutorials!
-                        <br/>
-                        This micro-blog is new, check out my <a href="https://communaltech.hashnode.dev/"><u>Hashnode blog</u></a> for more posts! 
+                        This blog has moved! Please visit my <a target="_blank" href="https://www.notion.so/communaltech/Kylee-Fields-Tech-Community-Manager-0730bd5aa6a24f6d9e91b895e56cee48?pvs=4#068ccb1fe23d4f67b6b5343ce9fd5773" rel="noopener noreferrer"><u>Projects page</u></a> to view my blog posts.
                     </p>
                 </div>
                 <ul className={styles.bloglist_container}>
